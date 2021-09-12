@@ -14,7 +14,7 @@ source=("https://github.com/rrthomas/recode/releases/download/v${pkgver}/recode-
         "help2man.patch")
 sha256sums=('e4320a6b0f5cd837cdb454fb5854018ddfa970911608e1f01cc2c65f633672c4'
             '4f431b274c5bba1f00325285c59825032c35893da61a539439d605839d8e906c'
-            'ca789328432b01ebe066ca594ac611ca43bd19083ed499e88c4410b15cc8492a')
+            '16e3d9220a64055e9fa191af6d527227fdd5283440c3168e8d408350af11ae23')
 _architectures="i686-w64-mingw32 x86_64-w64-mingw32"
 
 prepare() {

@@ -6,7 +6,7 @@ diff -ruN recode-3.7/src/Makefile.am patched/src/Makefile.am
  	  $(top_srcdir)/build-aux/missing --run $(HELP2MAN) \
  		--name="converts files between character sets" \
 -		--output=$@ ./recode; \
-+		--output=$@ ./recode$(EXEEXT); \
++		--output=$@ "wine ./recode$(EXEEXT)"; \
  	fi
  
  main.o: main.c ../config.status
